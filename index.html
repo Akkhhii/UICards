@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Cards</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="selection:bg-green-400">
+    <div class="wrapper w-full h-screen flex justify-center items-center">
+        
+        <nav class="w-full h-[4em] fixed top-0 bg-zinc-300/40 flex justify-between items-center px-[3em]">
+            <div class="left w-[20%] h-full flex justify-center items-center gap-[1em]">
+                <h2 class="text-3xl font-bold">UI/UX</h2>
+                <h2 class="text-xl italic font-semibold">UI-UX-Design</h2>
+            </div>
+            <div class="right w-[40%] h-full flex justify-between items-center font-semibold px-[2em]">
+                <p class="cursor-pointer">Home</p>
+                <p class="cursor-pointer">About</p>
+                <p class="cursor-pointer">Contact</p>
+                <p class="cursor-pointer">Services</p>
+                <p class="cursor-pointer">Blog</p>
+            </div>
+        </nav>
+
+        <div class="container w-[70%] h-[55em] relative top-[2em] px-[2em] fixed bottom-0">
+            <div class="w-full flex items-center justify-center py-[2em]">
+                <h2 class="text-md uppercase font-semibold">Profiles</h2>
+            </div>
+            <div class="card-container w-full h-[49em] bg-white/70 bg-red-800 overflow-y-scroll p-[1em] flex flex-wrap gap-[2em] items-center justify-center"></div>
+        </div>
+
+    </div>
+    
+    <script src="./UI.js"></script>
+</body>
+</html>
